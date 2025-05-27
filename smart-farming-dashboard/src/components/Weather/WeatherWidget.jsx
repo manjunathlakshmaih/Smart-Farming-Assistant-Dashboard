@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 const WeatherWidget = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -7,9 +7,11 @@ const WeatherWidget = () => {
 
   const fetchWeatherData = async () => {
     try {
-      const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Bangalore&appid=5bdffe92dd85a5637506c03f3ab89574=metric');
+      const response = await fetch(
+        "https://api.openweathermap.org/data/2.5/weather?q=Bangalore&appid=291482c910f1d1c7bf32f96497f570f0&units=metric"
+      );
       if (!response.ok) {
-        throw new Error('Failed to fetch weather data');
+        throw new Error("Failed to fetch weather data");
       }
       const data = await response.json();
       setWeatherData(data);
