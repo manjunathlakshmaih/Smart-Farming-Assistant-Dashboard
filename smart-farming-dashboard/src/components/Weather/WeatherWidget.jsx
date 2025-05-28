@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import './WeatherWidget.css';
 
 const WeatherWidget = () => {
   const [weatherData, setWeatherData] = useState(null);

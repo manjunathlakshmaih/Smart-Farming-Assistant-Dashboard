@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './SoilStatus.css';
 
 const SoilStatus = () => {
   const [moisture, setMoisture] = useState(0);

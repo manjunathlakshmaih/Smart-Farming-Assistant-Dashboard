@@ -1,0 +1,17 @@
+.weather-widget {
+  text-align: center;
+  background: linear-gradient(120deg, #e0e7ff 60%, #f0fdf4 100%);
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(60, 60, 120, 0.07);
+  padding: 1.5rem 1.2rem;
+}
+
+.weather-widget h2 {
+  margin-bottom: 1rem;
+  color: #2563eb;
+}
+
+.weather-widget p {
+  font-size: 1.1em;
+  margin: 0.5em 0;
+}
